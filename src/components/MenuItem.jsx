@@ -1,6 +1,6 @@
+import NutritionalInfo from "./NutritionalInfo";
 
-
-function MenuItem({ name, price, nutritionInfo }) {
+export default function MenuItem({ name, price, nutritionInfo }) {
   console.log(nutritionInfo);
   return (
     <div>
