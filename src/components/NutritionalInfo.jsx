@@ -1,5 +1,6 @@
 export default function NutritionalInfo({ nutritionInfo }) {
   const { calories, protein, carbs, fat } = nutritionInfo
+  
   return (
     <div>
       <p>Calories: {calories} kcal</p>
